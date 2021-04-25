@@ -73,32 +73,6 @@
 						for="flexRadioDefault2"> Individu </label>
 				</div>
 
-				<div id="myDIVc">
-					<c:if test="${customer.custTypeCd=='I'}">
-						<div class="input-group mb-3">
-							<div class="input-group-prepend">
-								<span class="input-group-text" id="inputGroup-sizing-default">fedId</span>
-							</div>
-							<input type="text" class="form-control"
-								aria-label="Sizing example input"
-								aria-describedby="inputGroup-sizing-default" name="fedId"
-								value="${customer.fedId}" placeholder="123-45-6789"
-								pattern="[0-9]{3}-[0-9]{2}-[0-9]{4}">
-						</div>
-					</c:if>
-					<c:if test="${customer.custTypeCd=='B'}">
-						<div class="input-group mb-3 " id="myDIVb">
-							<div class="input-group-prepend">
-								<span class="input-group-text" id="inputGroup-sizing-default">fedId</span>
-							</div>
-							<input type="text" class="form-control"
-								aria-label="Sizing example input"
-								aria-describedby="inputGroup-sizing-default" name="fedId"
-								value="${customer.fedId}" placeholder="12-3456789"
-								pattern="[0-9]{2}-[0-9]{7}">
-						</div>
-					</c:if>
-				</div>
 
 				<div class="input-group mb-3" id="myDIVi">
 					<div class="input-group-prepend">
@@ -111,15 +85,15 @@
 				</div>
 
 
-				<div class="input-group mb-3 " id="myDIVb">
-					<div class="input-group-prepend">
-						<span class="input-group-text" id="inputGroup-sizing-default">fedId</span>
-					</div>
-					<input type="text" class="form-control"
-						aria-label="Sizing example input"
-						aria-describedby="inputGroup-sizing-default" name="fedId"
-						placeholder="12-3456789" pattern="[0-9]{2}-[0-9]{7}">
-				</div>
+<!-- 				<div class="input-group mb-3 " id="myDIVb"> -->
+<!-- 					<div class="input-group-prepend"> -->
+<!-- 						<span class="input-group-text" id="inputGroup-sizing-default">fedId</span> -->
+<!-- 					</div> -->
+<!-- 					<input type="text" class="form-control" -->
+<!-- 						aria-label="Sizing example input" -->
+<!-- 						aria-describedby="inputGroup-sizing-default" name="fedId" -->
+<!-- 						placeholder="12-3456789" pattern="[0-9]{2}-[0-9]{7}"> -->
+<!-- 				</div> -->
 
 
 				<div class="input-group mb-3 ">
